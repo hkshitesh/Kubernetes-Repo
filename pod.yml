@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-nginx-pod
+  labels:
+    app: lblmyapp
+spec:
+  containers:
+  - name: kubeappc1
+    image: hkshitesh/kubeapp:1.1
