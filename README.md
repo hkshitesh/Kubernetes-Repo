@@ -17,3 +17,7 @@ AKIAXYKJP7IPDMY2IOE3
 /i92kj+ceOAH1Mn5oRuIKzfkg4Bu4zo5LDTgUX8Q
 
 
+#Docker Image Pull
+
+docker run -p 8004:80 -d hkshitesh/kubedemo:1.0
+
