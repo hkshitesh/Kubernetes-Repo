@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: my-spring-rs
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: lblspring
+  template:
+    metadata:
+      labels:
+        app: lblspring
+    spec:
+      containers:
+      - name: my-app-cont
+        image: hkshitesh/myspringapp
