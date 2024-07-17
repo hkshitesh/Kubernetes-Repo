@@ -21,3 +21,15 @@ AKIAXYKJP7IPDMY2IOE3
 
 docker run -p 8004:80 -d hkshitesh/kubedemo:1.0
 
+
+# pod.yml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-nginx-pod
+  labels:
+    app: lblmyapp
+spec:
+  containers:
+  - name: kubeappc1
+    image: hkshitesh/kubeapp:1.1
