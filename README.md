@@ -7,29 +7,16 @@ aws eks --region ap-south-1 describe-cluster --name ClusterNine --query cluster.
 # command 2
 aws eks --region ap-south-1 update-kubeconfig --name ClusterNine
 
-#Cluster Nine Keys
-
-# Access Key
-AKIAXYKJP7IPDMY2IOE3
-
-#Secret Key
-
-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
-
 
 #Docker Image Pull
 
 docker run -p 8004:80 -d hkshitesh/kubedemo:1.0
 
 
-# pod.yml
-apiVersion: v1
-kind: Pod
-metadata:
-  name: my-nginx-pod
-  labels:
-    app: lblmyapp
-spec:
-  containers:
-  - name: kubeappc1
-    image: hkshitesh/kubeapp:1.1
+# Access Key
+
+AKIAXJSAYWW2BJ2BEZ7C
+
+# Secret Access key
+
+T3MxrEFv2e1Ldre1RwmJ9xXc7I0+IyCIkfJezVv5
