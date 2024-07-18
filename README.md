@@ -2,10 +2,10 @@
 
 # Connecting Cluster Nodes
 
-aws eks --region ap-south-1 describe-cluster --name ClusterNine --query cluster.status
+aws eks --region ap-south-1 describe-cluster --name ClusterTwo --query cluster.status
 
 # command 2
-aws eks --region ap-south-1 update-kubeconfig --name ClusterNine
+aws eks --region ap-south-1 update-kubeconfig --name ClusterTwo
 
 
 #Docker Image Pull
