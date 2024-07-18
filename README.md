@@ -47,3 +47,7 @@ T3MxrEFv2e1Ldre1RwmJ9xXc7I0+IyCIkfJezVv5
 |  quota               |  resourcequotas              |
 |  sa                  |  serviceaccounts             |
 |  svc                 |  services                    |
+
+# Print POD env Variables
+
+ kubectl exec -it firstpod -- printenv
