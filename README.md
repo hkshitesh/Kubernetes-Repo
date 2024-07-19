@@ -103,3 +103,5 @@ Inside the pod, test DNS resolution:
 
 nslookup nginx-service.my-namespace.svc.cluster.local
 
+# Google Drive Link for Content
+https://drive.google.com/drive/folders/1R-U_GaHbdVvG_ammfixX4AkDZxAfilJJ?usp=sharing
